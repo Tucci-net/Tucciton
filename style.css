@@ -1,0 +1,122 @@
+:root {
+    --color1:#ff764d;
+    --color2:#fbffa7;
+    --color3:#b1c5ff;
+    --color4:#d5b3ff;
+    --color5:#b6ffc0;
+    --color6:#0000ff;
+}
+
+.mainNav__link-list{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: normal;
+    list-style: none;
+    display: flex;
+    align-content: center;
+    height: 1.75rem;
+    padding-left: 6.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0;
+    overflow: hidden;
+    font-weight: bold;
+    	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+.mainNav__item{
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: .625rem;
+    padding-left: .625rem;
+    
+}
+.mainNav__item a {
+    text-decoration: none;
+    color: black;
+}
+.homeLogo{
+    margin-left: 1.25rem;
+    margin-right: 2em;
+    margin-bottom: 1.25rem;
+    display:inline-block;
+    color: inherit;
+    text-decoration: none;
+    position: absolute;
+    top: 1.25rem;
+    left: 0;
+}
+
+.homeLogo img{
+    bottom: -1.5rem;
+    position: absolute;
+    width: 4em;
+}
+/* Don't Forget Spec! */
+.mainNav__item .mainNav__more{
+    color:var(--color1) ;
+}
+
+
+
+
+ .altNav__item1{
+    font-size: .875rem;
+    line-height: 1.5;
+    margin-right: 0;
+    padding-right: 0.625rem;
+    margin-left: auto;
+    text-decoration: none;
+}
+.altNav__item1 a{
+    color: var(--color6);
+    text-decoration: none;
+}
+
+.altNav__item2{
+    font-size: .875rem;
+    line-height: 1.5;
+    padding-right: 0.625rem;
+    text-decoration: none;
+
+}
+
+.main-nav__line{
+display: block;
+  height: 0;
+  border-top: 2px solid #eee;
+}
+
+.titlecardHeader{
+    margin-left: 8.33333vw;
+    margin-right: 8.33333vw;
+    margin-bottom: 8.33333vw;
+    position: relative;  
+    min-height: calc(100vh - 120px);
+}
+.titleCard__img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+.tucciton-logo{
+    color: var(--color1);
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.tucciton-logo h1{
+  font-size: 5rem;
+    margin-bottom: -35px;
+    filter: drop-shadow(0 0 0.04rem rgb(0, 0, 0));
+        	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+
+}
+.tucciton-logo h4{
+  font-size: 1rem;
+    filter: drop-shadow(0 0 0.07rem rgb(0, 0, 0));
+        	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+
+}
